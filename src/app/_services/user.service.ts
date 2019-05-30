@@ -16,7 +16,7 @@ export class UserService {
       return this.http.get<any>(`${environment.apiUrl}/user/` + id, 
         {
           headers: new HttpHeaders({
-            'Authorization': 'Bearer' + JSON.parse(localStorage.getItem('jwtToken'))
+            'Authorization': 'Bearer ' + localStorage.getItem('jwtToken')
           })
         })
         /*headers: new Headers().set('Authorization', JSON.parse(localStorage.getItem('twtToken')))*/

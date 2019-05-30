@@ -1,5 +1,6 @@
-# angular-6-registration-login-example-cli
+Angular 6 - User Login
 
-Angular 6 - User Registration and Login Example with Angular CLI
+Install steps :- 
+Once the git project cloned and opened in editor, go to terminal inside editor and type command 'npm start'  to start project. 
 
-
+in browser type http://localhost:4200 [ username/password : zore.amol@gmail.com/Welcome@1]
